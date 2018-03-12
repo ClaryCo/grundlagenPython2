@@ -1,5 +1,5 @@
 # variable
-
+'''
 a = 10
 b = 20
 c = 30
@@ -26,7 +26,7 @@ print(zahlA+zahlB)
 
 zahlC = 987
 text = str(zahlC)
-
+'''
 
 #Taschenrechner
 aktion = input ("Welche Aktion willst du?: (+/-/*/:)" )
@@ -40,6 +40,6 @@ if( aktion == "-"):
 if(aktion == " * "):
     ausgabe = int (zahl1)*int(zahl2)
 if (aktion == " : "):
-    ausgabe = int(zahl1):int(zahl2)
-    
+    ausgabe = int(zahl1)/int(zahl2)
+
 print(ausgabe)
